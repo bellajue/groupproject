@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <!-- Bootstrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Student Group 3 Bootstrap Project</title>
+        
+        <!-- Personal Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+       
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark" aria-label="top navigation">
+             <div class="container-fluid">
+                 <a class="navbar-brand" href="#">GGRADIC</a>
+                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+             
+                 <div class="navbar-collapse collapse" id="menu" style="">
+                     <ul class="navbar-nav me-auto mb-2">
+                         <li class="nav-item">
+                             <a class="nav-link active" aria-current="page" href="./index.html">About Us</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="grace.html">Grace</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="./mobile.html">Gracie</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="./mobile.html">Rilee</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="./mobile.html">Alyssa</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="./mobile.html">Darcy</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="./mobile.html">Isabella</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="./mobile.html">Christine</a>
+                         </li>
+                         <li><hr class="dropdown-divider text-light"></li>
+                         <li class="nav-item">
+                             <a class="nav-link" href="./team.html">Our Favorite Things to do</a>
+                         </li>
+                     </ul>
+                     
+                 </div>
+             </div>
+         </nav>  
+
+<!-- First Container -->
+
+<!-- Third Container (Grid) -->
+<div class="container bg-3 text-center">    
+  <h1 class="shadow-filter5">Darcy Malloy</h1><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="https://codehs.com/uploads/9dbb5dda8bfd0ec8b5de08d6f35f666b"  alt="Image" width="200px" height="100px" class="picture">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="https://codehs.com/uploads/cd75707287130064eac1843185cc0f11" class="picture" width="200px" height="100px" class="picture">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="https://codehs.com/uploads/1465d755f84fba609f58f55c5c6c8d35" class="picture" width="200px" height="100px" class="picture">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
+
+</body>
+</html>
